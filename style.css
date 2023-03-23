@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto+Mono&display=swap');
+*{
+    color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.container{
+    position: sticky;
+    top: 0;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+}
+
+#aboutMe{
+    background-image:url(resources/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+
+}
+
+#skills{
+    background-image:url(resources/background1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+#projects{
+    background-image:url(resources/background2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.imgLogo{
+    width: 6vw;
+    padding-left: 2%;
+}
+
+.imgLogo:hover {
+    transform: scale(.93);
+    transition: ease-in .3s;
+}
+
+#aboutMePicture{
+    display: flex;
+    margin-top: 1.5%;
+}
+
+.esportImage{
+    width: 55%;
+    height: auto;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    background-color: #2A1B3D;
+}
+
+ul{
+    margin-left: auto;
+    padding: 0;
+    padding-right: 3%;
+    display: flex;
+    list-style: none;
+}
+
+nav li{
+    padding: 5px 10px;
+    border: none;
+    display: inline-block;
+    padding: 5px;
+    transition: all linear .5s;
+    margin-right: 20px;
+}
+
+nav li a{
+    color: rgb(190, 174, 174);
+    font-size: 1.5rem; 
+    text-decoration: none;
+    font-weight: 500;
+    padding: 5px;
+}
+
+nav a:hover{
+    color:#47397e; 
+}
+
+.esportImage:hover {
+    transform: scale(.96);
+    transition: ease-in .3s;
+}
+
+.aboutMeDescription{
+    margin-top: 13%;
+}
+
+#aboutMe h1{
+    font-size: 4em;
+    color: #f6f0fd;
+    background-color: #43318dab;
+    width: 73%;
+}
+
+section p {
+  font-size: 2.4rem;
+  font-family: 'Merriweather', serif;
+}
+
+.description {
+    font-family: Roboto Mono; 
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #43318dab;
+}
+
+.cursor {
+  display: inline-block;
+  width: 3px;
+  margin-left: 4px;
+  background: #f6f0fd;
+}
+
+.cursor.blink {
+  animation: blink 0.8s ease-in-out infinite;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.column1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 2%;
+}
+
+.column:hover {
+    transform: scale(1.1);
+    transition: ease-in .5s;
+}
+
+.column img{
+    width: 45%;
+}
+
+.column p{
+    font-size: 1em;
+    text-align: center;
+    background-color: #43318dab;
+    width: 90%;
+}
+
+#skills{
+    height: 100%;
+}
+
+.row{
+    width: 98%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.skillTitleBox{
+    font-size: 1em;
+    color: #f6f0fd;
+    background-color: #43318dab;
+    text-align: center;
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: bold;
+    letter-spacing: 20px;
+}
+
+.contacts{
+    width: 70%;
+}
+
+.contacts img{
+    width: 20%;
+}
+
+.contacts a  :hover {
+    transform: scale(1.05);
+    transition: ease-in .2s;
+}
+
+#projectTitle {
+    float: right;
+    padding-right: 8%;
+    margin-top: 5%;
+    padding-left: 5%;
+}
+
+#projectTitle img{
+    width: 62%;
+    margin-left: 20%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+#projectTitle h1 {
+    font-size: 4em;
+    font-weight: bold;
+    color: #f6f0fd;
+    background-color: #43318dab;
+    letter-spacing: .2em;
+    text-align: center;
+}
+
+.textProject p {
+    color: white;
+    font-size: 1.5em;
+    font-family: 'Roboto Mono', monospace;
+    background-color: #43318dab;
+    text-align: justify;
+}
+
+.textProject img:hover {
+    transform: scale(.95);
+    transition: ease-in .4s;
+}
+
+@keyframes blink {
+    0%, 100% {
+      background: #f6f0fd;
+    }
+    40%, 50% {
+      background: transparent;
+    }
+  }
+
+@media (min-width: 500px) {
+    .aboutMePicture{
+        text-align:;
+    }
+}
